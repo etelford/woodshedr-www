@@ -92,6 +92,7 @@ nav ul li a:visited {
 
 nav ul li a:hover,
 nav ul li a:active {
+  color: #104019;
   border-bottom: 1px solid #104019; }
 
 nav ul li.current a,
@@ -100,6 +101,7 @@ nav ul li.current a:visited {
 
 nav ul li.current a:hover,
 nav ul li.current a:active {
+  color: white;
   border-bottom: none; }
 
 /* MAIN HOME */
