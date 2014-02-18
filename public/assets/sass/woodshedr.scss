@@ -1,8 +1,12 @@
 @import "var/settings";
 @import "partials/fonts";
 
+html, * {
+	-webkit-font-smoothing: antialiased;
+}
+
 body {
-  font: 20px $regular;
+  font: 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 24px;
   color: $primary-color;
   background-color: $body-bg-color;
@@ -24,10 +28,6 @@ a:visited::selection {
 	background: white;
 }
 
-b {
-	font-family: $regular;
-}
-
 /* MASTHEAD */
 header {
 	background-color: $woodshedr-green;
@@ -37,8 +37,8 @@ header {
 
 .tagline {
 	text-transform: uppercase;
-	font-family: $light;
-	font-size: 13px;
+	font-family: $regular;
+	font-size: 14px;
 	color: white;
 	padding-top: 2px;
 }
@@ -49,7 +49,7 @@ nav ul {
 }
 
 nav ul li {
-	font-size: 1.4em;
+	font-size: 30px;
 	padding-left: 20px;
 	display: inline;
 	line-height: 68px;
@@ -60,7 +60,7 @@ nav ul li a:visited {
 	color: $woodshedr-dark-green;
 	text-decoration: none;
 	border-bottom: 1px solid $woodshedr-green;
-	font-family: $light;
+	font-family: $regular;
 	padding-bottom: 2px;
 }
 
@@ -100,7 +100,8 @@ nav ul li.current a:active {
 	font-family: $light;
 }
 
-h2.aside {
+#main h2.aside {
+	font-size: 32px;
 	color: $woodshedr-dark-green;
 	margin-top: 48px;
 	margin-bottom: 24px;
@@ -121,9 +122,6 @@ h2.aside a:active {
 	text-decoration: none;
 	color: $woodshedr-green;
 	white-space:nowrap;
-}
-
-.pitch {
 }
 
 /* PRIVACY */
@@ -157,14 +155,16 @@ h2.aside a:active {
 }
 
 .feature p {
-	font-family: $regular;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
 	padding-right: 30px;
 }
 
 #highlights h2 {
 	font-family: $light;
-	font-size: 36px;
-	margin-bottom: 12px;
+	font-size: 40px;
+	margin-top: 12px;
+	margin-bottom: 24px;
 	text-align: center;
 }
 
@@ -215,9 +215,10 @@ h3.spin {
 
 /* FOOTER */
 footer {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: #222;
 	color: white;
-	font-size: 14px;
+	font-size: 13px;
 	color: #999;
 	height: 88px;
 	line-height: 88px;
@@ -232,7 +233,6 @@ footer ul li a,
 footer ul li a:visited {
 	color: #999;
 	text-decoration: none;
-	font-family: $regular;
 }
 
 footer ul li a:hover,
@@ -324,10 +324,10 @@ ul.faq li {
 .artist span.instruments {
 	font-size: 18px;
 	color: #777;
+	font-family: $light;
 }
 
 .bio-info {
-	font-family: $regular;
 	font-size: 16px;
 }
 
@@ -336,12 +336,18 @@ ul.faq li {
 }
 
 .bio-info h3 {
-	font-size: 24px;
+	font-size: 26px;
+	padding-bottom: 8px;
 	font-family: $light;
+}
+
+.bio-info h3 a {
+	text-decoration: none;
 }
 
 #main .bio-info p.instruments {
 	color: #999;
+	font-size: 14px;
 	margin: 0;
 }
 
@@ -363,8 +369,7 @@ ul.faq li {
 
 #main ul.faq p.answer,
 #main ul.faq p.answer_shown {
-	font-size: 18px;
-	text-shadow: 0 1px 0 #fff;
+	font-size: 16px;
 	padding: 12px 16px;
 	margin: 12px 0;
 	background-color: #eee;

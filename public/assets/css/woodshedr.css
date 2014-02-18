@@ -1,33 +1,30 @@
 /* Fonts */
-/*@font-face {
-    font-family: $regular;
-    src: url('/assets/fonts/bariol_regular-webfont.eot');
-    src: url('/assets/fonts/bariol_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/bariol_regular-webfont.woff') format('woff'),
-         url('/assets/fonts/bariol_regular-webfont.ttf') format('truetype'),
-         url('/assets/fonts/bariol_regular-webfont.svg#bariol_regularregular') format('svg');
-    font-weight: 100;
-    font-style: normal;
-}*/
+@font-face {
+  font-family: "Bariol";
+  src: url("/assets/fonts/bariol_regular-webfont.eot");
+  src: url("/assets/fonts/bariol_regular-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/bariol_regular-webfont.woff") format("woff"), url("/assets/fonts/bariol_regular-webfont.ttf") format("truetype"), url("/assets/fonts/bariol_regular-webfont.svg#bariol_regularregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 @font-face {
   font-family: "Bariol Bold";
   src: url("/assets/fonts/bariol_bold-webfont.eot");
   src: url("/assets/fonts/bariol_bold-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/bariol_bold-webfont.woff") format("woff"), url("/assets/fonts/bariol_bold-webfont.ttf") format("truetype"), url("/assets/fonts/bariol_bold-webfont.svg#bariol_boldbold") format("svg");
-  font-weight: 700;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Bariol";
-  src: url("/assets/fonts/bariol_light-webfont.eot");
-  src: url("/assets/fonts/bariol_light-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/bariol_light-webfont.woff") format("woff"), url("/assets/fonts/bariol_light-webfont.ttf") format("truetype"), url("/assets/fonts/bariol_light-webfont.svg#bariol_lightlight") format("svg");
-  font-weight: 500;
+  font-weight: bolder;
   font-style: normal; }
 
 @font-face {
   font-family: "Bariol Light";
+  src: url("/assets/fonts/bariol_light-webfont.eot");
+  src: url("/assets/fonts/bariol_light-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/bariol_light-webfont.woff") format("woff"), url("/assets/fonts/bariol_light-webfont.ttf") format("truetype"), url("/assets/fonts/bariol_light-webfont.svg#bariol_lightlight") format("svg");
+  font-weight: light;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Bariol Thin";
   src: url("/assets/fonts/bariol_thin-webfont.eot");
   src: url("/assets/fonts/bariol_thin-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/bariol_thin-webfont.woff") format("woff"), url("/assets/fonts/bariol_thin-webfont.ttf") format("truetype"), url("/assets/fonts/bariol_thin-webfont.svg#bariolthin") format("svg");
-  font-weight: 100;
+  font-weight: lighter;
   font-style: normal; }
 
 @font-face {
@@ -37,8 +34,11 @@
   font-weight: normal;
   font-style: normal; }
 
+html, * {
+  -webkit-font-smoothing: antialiased; }
+
 body {
-  font: 20px "Bariol";
+  font: 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 24px;
   color: #333333;
   background-color: #222222; }
@@ -56,9 +56,6 @@ a::selection,
 a:visited::selection {
   background: white; }
 
-b {
-  font-family: "Bariol"; }
-
 /* MASTHEAD */
 header {
   background-color: #4cd964;
@@ -67,8 +64,8 @@ header {
 
 .tagline {
   text-transform: uppercase;
-  font-family: "Bariol Light";
-  font-size: 13px;
+  font-family: "Bariol";
+  font-size: 14px;
   color: white;
   padding-top: 2px; }
 
@@ -77,7 +74,7 @@ nav ul {
   text-align: right; }
 
 nav ul li {
-  font-size: 1.4em;
+  font-size: 30px;
   padding-left: 20px;
   display: inline;
   line-height: 68px; }
@@ -87,7 +84,7 @@ nav ul li a:visited {
   color: #104019;
   text-decoration: none;
   border-bottom: 1px solid #4cd964;
-  font-family: "Bariol Light";
+  font-family: "Bariol";
   padding-bottom: 2px; }
 
 nav ul li a:hover,
@@ -119,7 +116,8 @@ nav ul li.current a:active {
   font-size: 30px;
   font-family: "Bariol Light"; }
 
-h2.aside {
+#main h2.aside {
+  font-size: 32px;
   color: #104019;
   margin-top: 48px;
   margin-bottom: 24px;
@@ -164,13 +162,15 @@ h2.aside a:active {
   margin-bottom: 30px; }
 
 .feature p {
-  font-family: "Bariol";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
   padding-right: 30px; }
 
 #highlights h2 {
   font-family: "Bariol Light";
-  font-size: 36px;
-  margin-bottom: 12px;
+  font-size: 40px;
+  margin-top: 12px;
+  margin-bottom: 24px;
   text-align: center; }
 
 #highlights h3 {
@@ -210,9 +210,10 @@ h3.spin {
 
 /* FOOTER */
 footer {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #222;
   color: white;
-  font-size: 14px;
+  font-size: 13px;
   color: #999;
   height: 88px;
   line-height: 88px; }
@@ -224,8 +225,7 @@ footer ul li {
 footer ul li a,
 footer ul li a:visited {
   color: #999;
-  text-decoration: none;
-  font-family: "Bariol"; }
+  text-decoration: none; }
 
 footer ul li a:hover,
 footer ul li a:active {
@@ -303,21 +303,26 @@ ul.faq li {
 
 .artist span.instruments {
   font-size: 18px;
-  color: #777; }
+  color: #777;
+  font-family: "Bariol Light"; }
 
 .bio-info {
-  font-family: "Bariol";
   font-size: 16px; }
 
 .bio-long {
   font-size: 18px; }
 
 .bio-info h3 {
-  font-size: 24px;
+  font-size: 26px;
+  padding-bottom: 8px;
   font-family: "Bariol Light"; }
+
+.bio-info h3 a {
+  text-decoration: none; }
 
 #main .bio-info p.instruments {
   color: #999;
+  font-size: 14px;
   margin: 0; }
 
 .bio-image {
@@ -336,8 +341,7 @@ ul.faq li {
 
 #main ul.faq p.answer,
 #main ul.faq p.answer_shown {
-  font-size: 18px;
-  text-shadow: 0 1px 0 #fff;
+  font-size: 16px;
   padding: 12px 16px;
   margin: 12px 0;
   background-color: #eee;
