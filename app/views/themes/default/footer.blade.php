@@ -6,7 +6,7 @@
 				<li>{{ HTML::link('contact', 'Contact') }}</li>
 				<li>{{ HTML::link('privacy', 'Privacy') }}</li>
 				<li class="icon"><a href="https://twitter.com/woodshedr/"><i class="entypo-social twitter"></i></a></li>
-				<li class="icon"><a href="https://facebook.com/woodshedr/"><i class="entypo-social facebook"></i></a></li>
+				<!--<li class="icon"><a href="https://facebook.com/woodshedr/"><i class="entypo-social facebook"></i></a></li>-->
 			</ul>
 		</div>
 		<div class="grid-25">

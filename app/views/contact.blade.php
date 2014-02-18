@@ -9,10 +9,10 @@
 				<p>You can follow Woodshedr on Twitter at <a href="https://twitter.com/woodshedr">@woodshedr</a>.</p>
 			</article>
 
-			<article>
+			<!--<article>
 				<h2>Facebook</h2>
 				<p>Please visit and like the <a href="#">Woodshedr page</a> on Facebook.</p>
-			</article>
+			</article>-->
 
 			<article>
 				<h2>Newsletter</h2>
