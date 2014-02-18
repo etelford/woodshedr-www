@@ -22,18 +22,18 @@
 }
 
 @font-face {
-    font-family: $light;
+    font-family: $regular;
     src: url('#{$bariol-path}_light-webfont.eot');
     src: url('#{$bariol-path}_light-webfont.eot?#iefix') format('embedded-opentype'),
          url('#{$bariol-path}_light-webfont.woff') format('woff'),
          url('#{$bariol-path}_light-webfont.ttf') format('truetype'),
          url('#{$bariol-path}_light-webfont.svg#bariol_lightlight') format('svg');
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: $regular;
+    font-family: $light;
     src: url('#{$bariol-path}_thin-webfont.eot');
     src: url('#{$bariol-path}_thin-webfont.eot?#iefix') format('embedded-opentype'),
          url('#{$bariol-path}_thin-webfont.woff') format('woff'),

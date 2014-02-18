@@ -17,14 +17,14 @@
   font-style: normal; }
 
 @font-face {
-  font-family: "Bariol Light";
+  font-family: "Bariol";
   src: url("/assets/fonts/bariol_light-webfont.eot");
   src: url("/assets/fonts/bariol_light-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/bariol_light-webfont.woff") format("woff"), url("/assets/fonts/bariol_light-webfont.ttf") format("truetype"), url("/assets/fonts/bariol_light-webfont.svg#bariol_lightlight") format("svg");
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal; }
 
 @font-face {
-  font-family: "Bariol";
+  font-family: "Bariol Light";
   src: url("/assets/fonts/bariol_thin-webfont.eot");
   src: url("/assets/fonts/bariol_thin-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/bariol_thin-webfont.woff") format("woff"), url("/assets/fonts/bariol_thin-webfont.ttf") format("truetype"), url("/assets/fonts/bariol_thin-webfont.svg#bariolthin") format("svg");
   font-weight: 100;
@@ -162,6 +162,7 @@ h2.aside a:active {
   margin-bottom: 30px; }
 
 .feature p {
+  font-family: "Bariol";
   padding-right: 30px; }
 
 #highlights h2 {
@@ -222,7 +223,7 @@ footer ul li a,
 footer ul li a:visited {
   color: #999;
   text-decoration: none;
-  font-family: "Bariol Light"; }
+  font-family: "Bariol"; }
 
 footer ul li a:hover,
 footer ul li a:active {
@@ -303,6 +304,7 @@ ul.faq li {
   color: #777; }
 
 .bio-info {
+  font-family: "Bariol";
   font-size: 16px; }
 
 .bio-long {
