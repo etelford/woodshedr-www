@@ -56,8 +56,8 @@ return array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
 			'database'  => 'woodshedr',
-			'username'  => 'forge',
-			'password'  => '8WaPcR15mWSkGrTrX8GT',
+			'username'  => 'homestead',
+			'password'  => 'secret',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
@@ -84,7 +84,7 @@ return array(
 		),
 
 	),
-	
+
 
 	/*
 	|--------------------------------------------------------------------------

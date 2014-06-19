@@ -26,11 +26,14 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'development' => array('Eriks-MacBook-Air.local'),
-	'local' => array('Eriks-MacBook-Air.local'),
+	'development' => array('homestead'),
+	'local' => array('homestead'),
 	'production' => array('sorcerer'),
 
 ));
+/*$env = $app->detectEnvironment(function() {
+	return $_SERVER['APP_ENV'];
+});*/
 
 /*
 |--------------------------------------------------------------------------
