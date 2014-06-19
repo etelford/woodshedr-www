@@ -6,7 +6,7 @@
 		<div class="grid-100">
 			<article>
 				<h2>Artists</h2>
-				<p>We have assembled a roster of some of the best jazz musicians around. Every Woodshedr session is recorded live so the artists can play true to the spontaneous nature of this music.</p>
+				<p>We&#8217;ve assembled a roster of some of the best jazz musicians around. Every Woodshedr session is recorded live so the artists can play true to the spontaneous nature of this music.</p>
 			</article>
 		</div>
 		@foreach($artists as $index => $artist)
