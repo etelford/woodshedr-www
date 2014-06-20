@@ -175,6 +175,6 @@ return array(
 
 	),
 
-	'cipher' => MCRYPT_RIJNDAEL_256
+	'cipher' => MCRYPT_RIJNDAEL_256,
 
 );
