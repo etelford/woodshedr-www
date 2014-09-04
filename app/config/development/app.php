@@ -2,6 +2,7 @@
 
 return array(
 
+    'debug' => true,
 
 	'providers' => array(
 
