@@ -4,7 +4,7 @@ class RateController extends BaseController {
 
 	public function index()
 	{
-		return 'This will redirect to Woodshedr App Store when published';
+		return Redirect::to('https://itunes.apple.com/us/app/woodshedr-jazz-play-alongs/id698750057?mt=8');
 	}
 
 }
