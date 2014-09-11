@@ -11,7 +11,7 @@
 			</ul>
 		</div>
 		<div class="grid-25">
-			<p>&copy; 2013 Highway 1 Design</p>
+			<p>&copy; 2014 Highway 1 Design</p>
 	</div>
 </footer>
 
