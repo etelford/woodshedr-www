@@ -8,7 +8,7 @@
 		</div>
 		<div class="grid-35 prefix-5 suffix-10">
 			<h2 class="aside">An iPad app for learning how to improvise to your favorite tunes with <a href="/artists/">real musicians</a>.</h2>
-			<p class="pitch"><img src="/assets/img/app-store-coming-soon.png" width="150" height="43"></p>
+			<p class="pitch"><a href="https://itunes.apple.com/us/app/woodshedr-jazz-play-alongs/id698750057?mt=8"><img src="/assets/img/app-store.png" width="150" height="43"></a></p>
 		</div>
 	</section>
 </div>
