@@ -4,6 +4,8 @@ Route::get('/', 'HomeController@index');
 
 Route::get('rate', 'RateController@index');
 
+Route::get('download', 'DownloadController@index');
+
 Route::get('support', 'SupportController@index');
 Route::get('support/faq/{slug?}', 'SupportController@faq');
 

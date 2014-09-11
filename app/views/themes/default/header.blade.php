@@ -48,6 +48,8 @@
 				@else
 				<li>{{ HTML::link('contact', 'Contact') }}</li>
 				@endif
+
+				<li>{{ HTML::link('download', 'Purchase!') }}</li>
 			</ul>
 		</nav>
 	</div>
