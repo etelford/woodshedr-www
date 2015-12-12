@@ -1,0 +1,6 @@
+{
+  "name": "Woodshedr",
+  "devDependencies": {
+    "modular-scale": "~2.1.1"
+  }
+}

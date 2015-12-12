@@ -1,5 +1,8 @@
 /bootstrap/compiled.php
+/.idea
 /vendor
+/node_modules
+/resources/assets/bower
 composer.phar
 composer.lock
 .env.local.php

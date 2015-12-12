@@ -1,0 +1,386 @@
+html, * {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+  font: 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 24px;
+  color: $primary-color;
+  background-color: $body-bg-color;
+}
+
+::selection {
+	background: default;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+	color: $woodshedr-green;
+}
+
+a::selection,
+a:visited::selection {
+	background: white;
+}
+
+/* MASTHEAD */
+header {
+	background-color: $woodshedr-green;
+	height: 68px;
+	padding: 20px 0;
+}
+
+.tagline {
+	text-transform: uppercase;
+	font-family: $regular;
+	font-size: 14px;
+	color: white;
+	padding-top: 2px;
+}
+
+nav ul {
+	height: 68px;
+	text-align: right;
+}
+
+nav ul li {
+	font-size: 30px;
+	padding-left: 20px;
+	display: inline;
+	line-height: 68px;
+}
+
+nav ul li a,
+nav ul li a:visited {
+	color: $woodshedr-dark-green;
+	text-decoration: none;
+	border-bottom: 1px solid $woodshedr-green;
+	font-family: $regular;
+	padding-bottom: 2px;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+	color: $woodshedr-dark-green;
+	border-bottom: 1px solid $woodshedr-dark-green;
+}
+
+nav ul li.current a,
+nav ul li.current a:visited {
+	color: white;
+}
+
+nav ul li.current a:hover,
+nav ul li.current a:active {
+	color: white;
+	border-bottom: none;
+}
+
+/* MAIN HOME */
+#main {
+	padding: 40px 0;
+	background-color: $main-bg-color;
+}
+
+.teaser {
+	text-align: center;
+}
+
+.teaser img {
+	border: 1px solid #eee;
+}
+
+#main h2 {
+	font-size: 30px;
+	font-family: $light;
+}
+
+#main h2.aside {
+	font-size: 32px;
+	color: $woodshedr-dark-green;
+	margin-top: 48px;
+	margin-bottom: 24px;
+	line-height: normal;
+}
+
+h2.aside a,
+h2.aside a:visited {
+	border-bottom: 1px solid white;
+	text-decoration: none;
+	color: $woodshedr-green;
+	white-space:nowrap;
+}
+
+h2.aside a:hover,
+h2.aside a:active {
+	border-bottom: 1px solid $woodshedr-green;
+	text-decoration: none;
+	color: $woodshedr-green;
+	white-space:nowrap;
+}
+
+/* PRIVACY */
+#main article {
+	margin-bottom: 36px;
+}
+
+#main article h2 {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 8px;
+}
+
+#main article p, #main article ul {
+	margin: 12px 0 24px;
+}
+
+#main section.privacy article ul {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+/* HIGHLIGHTS */
+#highlights {
+	color: #333;
+	background-color: #eee;
+	padding: 20px 0 40px;
+}
+
+.feature {
+	margin-bottom: 30px
+}
+
+.feature p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	padding-right: 30px;
+}
+
+#highlights h2 {
+	font-family: $light;
+	font-size: 40px;
+	margin-top: 12px;
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+#highlights h3 {
+	font-family: $bold;
+	font-size: 24px;
+	margin: 12px 0 8px;
+	height: 30px;
+	padding-left: 38px;
+	line-height: 30px;
+}
+
+h3.record {
+	background: url('/assets/img/record.png') no-repeat;
+}
+
+h3.sharing {
+	background: url('/assets/img/sharing.png') no-repeat;
+}
+
+h3.control {
+	background: url('/assets/img/control.png') no-repeat;
+}
+
+h3.handsfree {
+	background: url('/assets/img/handsfree.png') no-repeat;
+}
+
+h3.personality {
+	background: url('/assets/img/personality.png') no-repeat;
+}
+
+h3.catalog {
+	background: url('/assets/img/catalog.png') no-repeat;
+}
+
+h3.midi {
+	background: url('/assets/img/midi.png') no-repeat;
+}
+
+h3.teacher {
+	background: url('/assets/img/teacher.png') no-repeat;
+}
+
+h3.spin {
+	background: url('/assets/img/woodshedr-circle.png') no-repeat;
+}
+
+/* FOOTER */
+footer {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #222;
+	color: white;
+	font-size: 13px;
+	color: #999;
+	height: 88px;
+	line-height: 88px;
+}
+
+footer ul li {
+	padding-right: 20px;
+	display: inline;
+}
+
+footer ul li a,
+footer ul li a:visited {
+	color: #999;
+	text-decoration: none;
+}
+
+footer ul li a:hover,
+footer ul li a:active {
+	color: #eee;
+}
+
+footer ul li.icon {
+	position: static;
+	display: inline-block;
+}
+
+/* CONTACT */
+#contact {
+	margin-top: 20px;
+}
+
+#contact p.small {
+	font-size: 12px;
+	line-height: 16px;
+	font-style: italic;
+	color: $primary-color;
+	margin: 0;
+	margin-top: 6px;
+}
+
+input.email {
+	font-family: $regular;
+	font-size: 20px;
+	font-size: 1.1em;
+	padding: 10px;
+	width: 30%;
+	border: 1px solid white;
+	box-shadow:0 0 0px 1px white;
+	color: $primary-color;
+	background-color: #eee;
+	outline: none;
+}
+
+input.email:focus {
+	border: 1px solid $woodshedr-green;
+	box-shadow:0 0 0px 1px $woodshedr-green;
+}
+
+button {
+	font-family: $regular;
+	cursor: pointer;
+	background-color: $woodshedr-green;
+	padding: 10px;
+	color: #fff;
+	text-shadow: 0 2px 0 $button-shadow;
+	font-size: 1.1em;
+	border: none;
+	text-transform: uppercase;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.entypo-social {
+	position: relative;
+	top: 4px;
+	font-family: 'EntypoSocialRegular';
+	font-size: 2.2em;
+	font-weight: normal;
+	min-width: 20px;
+}
+
+/* FAQ */
+#main ul.faq {
+	list-style-type: none;
+}
+
+ul.faq li {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 16px;
+}
+
+#main ul.faq p {
+	margin: 0;
+	padding: 0;
+}
+
+/* ARTISTS */
+.artist article {
+	padding-right: 48px;
+}
+
+.artist span.instruments {
+	font-size: 18px;
+	color: #777;
+	font-family: $light;
+}
+
+.bio-info {
+	font-size: 16px;
+}
+
+.bio-long {
+	font-size: 18px;
+}
+
+.bio-info h3 {
+	font-size: 26px;
+	padding-bottom: 8px;
+	font-family: $light;
+}
+
+.bio-info h3 a {
+	text-decoration: none;
+}
+
+#main .bio-info p.instruments {
+	color: #999;
+	font-size: 14px;
+	margin: 0;
+}
+
+.bio-image {
+	position: relative;
+	float: left;
+	display: inline-block;
+	padding-right: 12px;
+	margin-bottom: 18px;
+}
+
+.bio-image .credit {
+	color: #999;
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	font-size: 12px;
+}
+
+#main ul.faq p.answer,
+#main ul.faq p.answer_shown {
+	font-size: 16px;
+	padding: 12px 16px;
+	margin: 12px 0;
+	background-color: #eee;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+#main ul.faq p.answer {
+	display: none;
+}
+
+.entypo-social.twitter:before{ content:'\F309'; }
+.entypo-social.facebook:before{ content:'\F30C'; }
+.entypo-social.c-facebook:before{ content:'\F30D'; }
+.entypo-social.s-facebook:before{ content:'\F30E'; }
