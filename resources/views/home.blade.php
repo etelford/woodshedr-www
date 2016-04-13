@@ -76,7 +76,7 @@
 			<div class="grid-33 mobile-grid-50">
 				<section class="feature">
 					<h3 class="spin">Take it for a Spin.</h3>
-					<p><a href="/download/" title="Download Woodshedr on the App Store">Download for free</a> on the App Store and start shedding today.</p>
+					<p><a href="/download/" title="Download Woodshedr on the App Store">But it today</a> on the App Store and start shedding!</p>
 				</section>
 			</div>
 		</div>
