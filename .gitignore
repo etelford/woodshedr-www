@@ -1,10 +1,11 @@
 /bootstrap/compiled.php
+/.idea
 /vendor
+/node_modules
+/resources/assets/bower
 composer.phar
 composer.lock
-.env.local.php
-.env.testing.php
-.env.php
+.env
 .DS_Store
 .sass-cache/
 Thumbs.db
