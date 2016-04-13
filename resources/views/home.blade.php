@@ -4,7 +4,7 @@
 <div role="main" id="main">
 	<section class="grid-container">
 		<div class="grid-50 teaser">
-			<img src="/assets/img/screenshot.png" width="350" height="467">
+			<img src="/assets/img/screenshot.png" width="350" height="466">
 		</div>
 		<div class="grid-35 prefix-5 suffix-10">
 			<h2 class="aside">An iPad &amp; iPhone app for learning how to improvise to your favorite tunes with <a href="/artists/">real musicians</a>.</h2>
