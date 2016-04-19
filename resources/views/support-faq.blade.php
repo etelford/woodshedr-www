@@ -17,7 +17,7 @@
 					<li>
 						<p class="question"><a href="/support/faq/{{ $faq->slug }}">{{ $faq->question }}</a></p>
 
-						<p class="answer">{{ $faq->answer }}</p>
+						<p class="answer">{!! $faq->answer !!}</p>
 					</li>
 
 					@endforeach
