@@ -14,7 +14,7 @@
   font-style: normal; }
 
 @font-face {
-  font-family: "Bariol Light";
+  font-family: "Bariol";
   src: url("/assets/fonts/bariol_light-webfont.eot");
   src: url("/assets/fonts/bariol_light-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/bariol_light-webfont.woff") format("woff"), url("/assets/fonts/bariol_light-webfont.ttf") format("truetype"), url("/assets/fonts/bariol_light-webfont.svg#bariol_lightlight") format("svg");
   font-weight: light;
@@ -114,7 +114,7 @@ nav ul li.current a:active {
 
 #main h2 {
   font-size: 30px;
-  font-family: "Bariol Light"; }
+  font-family: "Bariol"; }
 
 #main h2.aside {
   font-size: 32px;
@@ -167,7 +167,7 @@ h2.aside a:active {
   padding-right: 30px; }
 
 #highlights h2 {
-  font-family: "Bariol Light";
+  font-family: "Bariol";
   font-size: 40px;
   margin-top: 12px;
   margin-bottom: 24px;
@@ -304,7 +304,7 @@ ul.faq li {
 .artist span.instruments {
   font-size: 18px;
   color: #777;
-  font-family: "Bariol Light"; }
+  font-family: "Bariol"; }
 
 .bio-info {
   font-size: 16px; }
@@ -315,7 +315,7 @@ ul.faq li {
 .bio-info h3 {
   font-size: 26px;
   padding-bottom: 8px;
-  font-family: "Bariol Light"; }
+  font-family: "Bariol"; }
 
 .bio-info h3 a {
   text-decoration: none; }
