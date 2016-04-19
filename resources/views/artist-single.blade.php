@@ -21,7 +21,7 @@
 
 				<div class="bio-info">
 
-					<p class="bio-long">{{ $artist->bio_long }}</p>
+					<p class="bio-long">{!! $artist->bio_long !!}</p>
 
 					<ul>
 						@if (! is_null($artist->website))
