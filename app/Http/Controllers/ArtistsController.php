@@ -9,11 +9,15 @@ class ArtistsController extends Controller
 	public function index($slug = null)
 	{
 		if (! $slug) {
-			$artists = Artist::with('instruments')->get();
+			$artists = Artist::with('instruments')
+							 ->orderBy('lastname')
+							 ->get();
 
 			return view('artists', compact('artists'));
 		} else {
-			$artist = Artist::with('instruments')->where('slug', '=', $slug)->first();
+			$artist = Artist::with('instruments')
+							->where('slug', '=', $slug)
+							->first();
 
 			return view('artist-single', compact('artist'));
 		}
