@@ -1,33 +1,5 @@
 /* Fonts */
 @font-face {
-  font-family: "Bariol";
-  src: url("/assets/fonts/bariol_regular-webfont.eot");
-  src: url("/assets/fonts/bariol_regular-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/bariol_regular-webfont.woff") format("woff"), url("/assets/fonts/bariol_regular-webfont.ttf") format("truetype"), url("/assets/fonts/bariol_regular-webfont.svg#bariol_regularregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Bariol Bold";
-  src: url("/assets/fonts/bariol_bold-webfont.eot");
-  src: url("/assets/fonts/bariol_bold-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/bariol_bold-webfont.woff") format("woff"), url("/assets/fonts/bariol_bold-webfont.ttf") format("truetype"), url("/assets/fonts/bariol_bold-webfont.svg#bariol_boldbold") format("svg");
-  font-weight: bolder;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Bariol";
-  src: url("/assets/fonts/bariol_light-webfont.eot");
-  src: url("/assets/fonts/bariol_light-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/bariol_light-webfont.woff") format("woff"), url("/assets/fonts/bariol_light-webfont.ttf") format("truetype"), url("/assets/fonts/bariol_light-webfont.svg#bariol_lightlight") format("svg");
-  font-weight: light;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Bariol Thin";
-  src: url("/assets/fonts/bariol_thin-webfont.eot");
-  src: url("/assets/fonts/bariol_thin-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/bariol_thin-webfont.woff") format("woff"), url("/assets/fonts/bariol_thin-webfont.ttf") format("truetype"), url("/assets/fonts/bariol_thin-webfont.svg#bariolthin") format("svg");
-  font-weight: lighter;
-  font-style: normal; }
-
-@font-face {
   font-family: 'EntypoSocialRegular';
   src: url("/assets/fonts/entypo-social.eot");
   src: url("/assets/fonts/entypo-social.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/entypo-social.woff") format("woff"), url("/assets/fonts/entypo-social.ttf") format("truetype"), url("/assets/fonts/entypo-social.svg#EntypoRegular") format("svg");
@@ -64,7 +36,6 @@ header {
 
 .tagline {
   text-transform: uppercase;
-  font-family: "Bariol";
   font-size: 14px;
   color: white;
   padding-top: 2px; }
@@ -84,7 +55,6 @@ nav ul li a:visited {
   color: #104019;
   text-decoration: none;
   border-bottom: 1px solid #47c9c0;
-  font-family: "Bariol";
   padding-bottom: 2px; }
 
 nav ul li a:hover,
@@ -166,7 +136,6 @@ h2.aside a:active {
   padding-right: 30px; }
 
 #highlights h2 {
-  font-family: "Bariol";
   font-size: 40px;
   margin-top: 12px;
   margin-bottom: 24px;
