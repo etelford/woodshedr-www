@@ -36,6 +36,7 @@ header {
 
 .tagline {
   text-transform: uppercase;
+  font-weight: normal;
   font-size: 14px;
   color: white;
   padding-top: 2px; }
@@ -111,6 +112,7 @@ h2.aside a:active {
   margin-bottom: 36px; }
 
 #main article h2 {
+  font-weight: normal;
   border-bottom: 1px solid #eee;
   padding-bottom: 8px; }
 
@@ -136,7 +138,8 @@ h2.aside a:active {
   padding-right: 30px; }
 
 #highlights h2 {
-  font-size: 40px;
+  font-weight: normal;
+  font-size: 36px;
   margin-top: 12px;
   margin-bottom: 24px;
   text-align: center; }
