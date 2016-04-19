@@ -87,7 +87,8 @@ nav ul li.current a:active {
   font-size: 30px; }
 
 #main h2.aside {
-  font-size: 32px;
+  font-size: 28px;
+  font-weight: normal;
   color: #104019;
   margin-top: 48px;
   margin-bottom: 24px;
