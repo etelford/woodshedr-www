@@ -2,6 +2,8 @@
 /.idea
 /vendor
 /node_modules
+/bower_components
+/app/storage
 /resources/assets/bower
 composer.phar
 composer.lock
