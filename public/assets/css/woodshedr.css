@@ -113,8 +113,7 @@ nav ul li.current a:active {
   border: 1px solid #eee; }
 
 #main h2 {
-  font-size: 30px;
-  font-family: "Bariol"; }
+  font-size: 30px; }
 
 #main h2.aside {
   font-size: 32px;
@@ -174,7 +173,6 @@ h2.aside a:active {
   text-align: center; }
 
 #highlights h3 {
-  font-family: "Bariol Bold";
   font-size: 24px;
   margin: 12px 0 8px;
   height: 30px;
@@ -248,7 +246,6 @@ footer ul li.icon {
   margin-top: 6px; }
 
 input.email {
-  font-family: "Bariol";
   font-size: 20px;
   font-size: 1.1em;
   padding: 10px;
@@ -264,7 +261,6 @@ input.email:focus {
   box-shadow: 0 0 0px 1px #47c9c0; }
 
 button {
-  font-family: "Bariol";
   cursor: pointer;
   background-color: #47c9c0;
   padding: 10px;
@@ -303,8 +299,7 @@ ul.faq li {
 
 .artist span.instruments {
   font-size: 18px;
-  color: #777;
-  font-family: "Bariol"; }
+  color: #777; }
 
 .bio-info {
   font-size: 16px; }
@@ -314,8 +309,7 @@ ul.faq li {
 
 .bio-info h3 {
   font-size: 26px;
-  padding-bottom: 8px;
-  font-family: "Bariol"; }
+  padding-bottom: 8px; }
 
 .bio-info h3 a {
   text-decoration: none; }
