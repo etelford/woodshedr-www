@@ -126,7 +126,8 @@ h2.aside a:active {
 /* HIGHLIGHTS */
 #highlights {
   color: #333;
-  background-color: #eee;
+  background-color: #f1fffe;
+  border-top: 1px solid #e4fffd;
   padding: 20px 0 40px; }
 
 .feature {
