@@ -10,7 +10,7 @@
 			</ul>
 		</div>
 		<div class="grid-25">
-			<p>&copy; 2014-2015 Highway 1 Design</p>
+			<p>&copy; 2014-2016 Highway 1 Design</p>
 	</div>
 </footer>
 
