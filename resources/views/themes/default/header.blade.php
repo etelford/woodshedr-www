@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<!--<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">-->
-<meta name="apple-itunes-app" content="app-id=698750057">
 
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="apple-itunes-app" content="app-id=698750057">
+	
 <title>Woodshedr</title>
 
 	<link rel="shortcut icon" href="/favicon.ico">
