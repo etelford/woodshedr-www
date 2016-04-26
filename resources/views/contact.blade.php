@@ -18,7 +18,7 @@
 
 				<h2>Newsletter</h2>
 
-				<p>Sign up for the Woodshedr newsletter to find out when we add new songs or introduce new features! It&#8217;s also easy to <a href="/contact/unsubscribe">unsubscribe</a>.</p>
+				<p>Sign up for the Woodshedr newsletter to find out when new songs or features are added! It&#8217;s also easy to <a href="/contact/unsubscribe">unsubscribe</a>.</p>
 
 				<form method="POST" action="http://campaigns.hwy1design.com/t/r/s/ticdtk/" id="subForm">
 
@@ -34,7 +34,7 @@
 
 			<article>
 				<h2>Support</h2>
-				<p>Have a problem or question? We&#8217;re happy to help, but you should check out the <a href="/support/faq">Frequently Asked Questions</a> first.</p>
+				<p>Have a problem or question? I&#8217;m happy to help, but you should check out the <a href="/support/faq">Frequently Asked Questions</a> first.</p>
 			</article>
 
 			<article>
